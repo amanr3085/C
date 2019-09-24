@@ -5,7 +5,7 @@ int main()
 {
     for(int i=1;i<=5;i++)
     {
-        for(int k=1;k<=5-i;k++)
+        for(int k=5;k>i;k--)
         {
             printf("  ");
         }
