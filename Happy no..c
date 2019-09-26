@@ -3,8 +3,8 @@
 int main ()
 {
   int n,n1, r, sum = 0;
-  n1=n;
   scanf ("%d", &n);
+  n1=n;
   while (sum != 4 && sum != 1)
     {
       sum = 0;
