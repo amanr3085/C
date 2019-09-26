@@ -2,7 +2,8 @@
 #include <math.h>
 int main ()
 {
-  int n, r, sum = 0;
+  int n,n1, r, sum = 0;
+  n1=n;
   scanf ("%d", &n);
   while (sum != 4 && sum != 1)
     {
@@ -16,9 +17,9 @@ int main ()
       n = sum;
     }
   if (sum == 1)
-    printf ("Happy no.= %d", sum);
+    printf ("Happy no.= %d", n1);
   else
-    printf ("Not a Happy no.= %d", sum);
+    printf ("Not a Happy no.= %d", n1);
 
   return 0;
 }
