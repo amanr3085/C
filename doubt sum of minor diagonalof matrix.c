@@ -3,7 +3,7 @@
 
 int main ()
 {
-  int n, p, i, j;
+   int n, p, i, j;
   scanf ("%d %d", &n, &p);
   int a[n][p];
   int sum=0;
