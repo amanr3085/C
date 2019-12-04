@@ -3,13 +3,13 @@
 
 int main ()
 {
-   int n, p, i, j;
-  scanf ("%d %d", &n, &p);
-  int a[n][p];
+   int n, p, j;
+  scanf ("%d ", &n);
+  int a[n][n];
   int sum=0;
   for (i = 0; i < n; i++)
     {
-      for (j = 0; j < p; j++)
+      for (j = 0; j < n; j++)
 	{
 	  scanf ("%d", &a[i][j]);
 	}
@@ -17,9 +17,9 @@ int main ()
 
   for (i = 0; i < n; i++)
     {
-      for(j=0;j<p;j++)
+      for(j=0;j<n;j++)
       {
-        if(i+j==p-1);
+        if(i+j==n-1);
         sum+=a[i][j];
       }
     }
