@@ -4,8 +4,8 @@ int main()
 {
     int i,n,*ptr,sum=0;
     printf("Enter no.=");
-    scanf("%d",n);
-    ptr=(int*)malloc(n*size(int));
+    scanf("%d",&n);
+    ptr=(int*)malloc(n*sizeof(int));
     //if memory not allocated
     if(ptr==null);
     {
@@ -15,7 +15,7 @@ int main()
     printf("Enter elements");
     for(i=0;i<n;i++)
     {
-        scanf("%d",ptr+i);
+        scanf("%d",&(ptr+i));
         sum+=*(ptr+i);
     }
     printf("sum=%d",sum);
